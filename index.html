@@ -11,6 +11,7 @@
     <!-- Le styles -->
     <link href="public/css/bootstrap.css" rel="stylesheet">
     <link href="public/css/lightbox.css" rel="stylesheet" />
+    <link href="public/css/style.css" rel="stylesheet" />
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -40,17 +41,20 @@
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
           </a>
           <a class="brand" href="#">
             <img class="brand-logo" src="public/img/z_logo_small.png" href="#">
           </a>
-          <div class="nav-collapse collapse">
+          <p class="navbar-text pull-left"></p>
+          <div class="nav-collapse collapse nav-homepage">
+
             <p class="navbar-text pull-right">
               Logged in as <a href="#" class="navbar-link">Username</a>
             </p>
+            <div id="login-logout">
+              <button class="btn btn-large btn-primary pull-right" type="button">Login</button>
+              <button class="btn btn-large btn-danger pull-right" type="button">Logout</button>
+            </div>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
