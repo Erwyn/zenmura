@@ -6,7 +6,7 @@ function disPlayPics(){
 	for(var i=0;i<lien.length;i++){
 		liens[i].onclick = function(){
 			small_photo.alt= this.href;
-			return false;
+			alert('I will rule your world');
 		};
 	}
 }
@@ -22,7 +22,7 @@ function ajout(nombre){
         lien.href = 'javascript:ajout(\'' + nombreNouveau + '\')';
         
         for (i = 0; i <= nombreNouveau; i++){
-                aAfficher .= 'L\'élement n° ' + i + ' : <input type="file">'; 
+                aAfficher .= 'L\'ï¿½lement nï¿½ ' + i + ' : <input type="file">'; 
         }
         
         div.innerHTML = aAfficher;
